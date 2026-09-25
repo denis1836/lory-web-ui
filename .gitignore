@@ -1,0 +1,6 @@
+# some basic stuff for now
+*.log
+
+*.key
+*.env
+!.env.example
