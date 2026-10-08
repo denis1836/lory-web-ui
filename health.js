@@ -1,4 +1,4 @@
-async function() checkHealth() {
+async function checkHealth() {
     const el = document.getElementById('db_health_text');
 
     try {
