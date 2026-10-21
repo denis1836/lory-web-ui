@@ -1,3 +1,8 @@
+const welcome = () => {
+    wt = document.getElementById('welcome_text');
+    wt.innerText = "hi js!";
+}
+
 async function checkHealth() {
     const el = document.getElementById('db_health_text');
 
@@ -15,5 +20,6 @@ async function checkHealth() {
 }
 
 document.addEventListener('DOMContentLoaded', checkHealth);
+document.addEventListener('DOMContentLoaded', welcome);
 
 setInterval(checkHealth, 10000);
